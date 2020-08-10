@@ -1,0 +1,14 @@
+.feed{
+}
+
+.message{
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.messageCont{
+    display: flex;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}

@@ -1,0 +1,19 @@
+.chatHeaderWrapper {
+    height: 90px;
+    color: #222;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.37), 1px 2px 3px rgba(0,0,0,0.54);
+    z-index: 2;
+}
+
+.chatRoom {
+    background:
+    /* linear-gradient(181deg, rgba(100,200,255,0.6), rgba(0, 0, 0, 0.9)), */
+    url('../assets/Images/chatt.jpg') center center no-repeat;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+
+router-outlet {
+    height:0;
+}

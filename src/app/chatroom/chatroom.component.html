@@ -1,0 +1,14 @@
+<div class="mainContent">
+    <div class="userListWrap">
+        <app-user-list></app-user-list>
+    </div>
+    <div class="feedWrap">
+        <perfect-scrollbar #scroller class="scrollProp" scrollbar-x="bottom" scrollDownOnLoad="true" scrollable="true" [config]="config">
+            <app-feed></app-feed>
+        </perfect-scrollbar>
+    </div>
+</div>
+
+<div class="chatFormWrap">
+    <app-chart-form></app-chart-form>
+</div>

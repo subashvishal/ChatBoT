@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="loginCard">
+    <h2 class="heading">Sign In</h2>
+    <input [(ngModel)]="email" type="email" placeholder="Email" name="email" class="formInput" autocomplete="off" />
+    <input type="password" [(ngModel)]="password" placeholder="Password" name="password" class="formInput"
+      autocomplete="off" />
+    <button class="btn" id="btn-login" (click)="login()">
+      Log In
+    </button>
+  </div>
+</div>
